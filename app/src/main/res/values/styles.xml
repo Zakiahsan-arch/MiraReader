@@ -1,74 +1,90 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
 
-    <!-- BASE THEME -->
-    <style name="Base.Theme.MiraReader" parent="Theme.Material3.DayNight.NoActionBar">
-        <item name="android:statusBarColor">?attr/colorPrimary</item>
-        <item name="android:navigationBarColor">?attr/colorPrimary</item>
+    <!-- Widget Styles -->
+    <style name="Widget.MaterialDivider" parent="Widget.Material3.Divider">
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">?attr/colorOutlineVariant</item>
     </style>
 
-    <!-- MAIN APP THEME -->
-    <style name="Theme.MiraReader" parent="Base.Theme.MiraReader" />
-
-    <!-- THEME VARIANTS -->
-    <style name="Theme.MiraReader.Lavender" parent="Base.Theme.MiraReader">
-        <item name="colorPrimary">@color/lavender_primary</item>
-        <item name="colorSecondary">@color/lavender_secondary</item>
+    <style name="Widget.Switch" parent="Widget.Material3.CompoundButton.MaterialSwitch">
+        <item name="android:minHeight">48dp</item>
+        <item name="android:minWidth">48dp</item>
     </style>
 
-    <style name="Theme.MiraReader.MidnightDusk" parent="Base.Theme.MiraReader">
-        <item name="colorPrimary">@color/midnight_primary</item>
-        <item name="colorSecondary">@color/midnight_secondary</item>
+    <!-- Text Appearances -->
+    <style name="TextAppearance.Widget.Menu" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textColor">?attr/colorOnSurface</item>
     </style>
 
-    <style name="Theme.MiraReader.StrawberryDaiquiri" parent="Base.Theme.MiraReader">
-        <item name="colorPrimary">@color/strawberry_primary</item>
-        <item name="colorSecondary">@color/strawberry_secondary</item>
+    <style name="TextAppearance.Widget.Button" parent="TextAppearance.Material3.LabelLarge">
+        <item name="android:textColor">?attr/colorPrimary</item>
     </style>
 
-    <style name="Theme.MiraReader.Tako" parent="Base.Theme.MiraReader">
-        <item name="colorPrimary">@color/tako_primary</item>
-        <item name="colorSecondary">@color/tako_secondary</item>
+    <style name="TextAppearance.Preference.Secondary" parent="TextAppearance.Material3.BodySmall">
+        <item name="android:textColor">?attr/colorOnSurfaceVariant</item>
     </style>
 
-    <style name="Theme.MiraReader.TealTurquoise" parent="Base.Theme.MiraReader">
-        <item name="colorPrimary">@color/teal_primary</item>
-        <item name="colorSecondary">@color/teal_secondary</item>
+    <!-- Action Button Styles -->
+    <style name="Theme.ActionButton.Overflow" parent="Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:color">?attr/colorOnSurfaceVariant</item>
     </style>
 
-    <style name="Theme.MiraReader.YinYang" parent="Base.Theme.MiraReader">
-        <item name="colorPrimary">@color/yinyang_primary</item>
-        <item name="colorSecondary">@color/yinyang_secondary</item>
+    <!-- Preference Theme -->
+    <style name="PreferenceThemeOverlay" parent="PreferenceThemeOverlay.v14.Material">
+        <item name="preferenceStyle">@style/Preference.Material</item>
+        <item name="switchPreferenceCompatStyle">@style/Preference.Material.Switch</item>
     </style>
 
-    <style name="Theme.MiraReader.Yotsuba" parent="Base.Theme.MiraReader">
-        <item name="colorPrimary">@color/yotsuba_primary</item>
-        <item name="colorSecondary">@color/yotsuba_secondary</item>
+    <!-- Dialog Theme -->
+    <style name="ThemeOverlay.MaterialAlertDialog" parent="ThemeOverlay.Material3.MaterialAlertDialog">
+        <item name="materialAlertDialogTitleTextStyle">@style/MaterialAlertDialog.Material3.Title.Text</item>
+        <item name="materialAlertDialogBodyTextStyle">@style/MaterialAlertDialog.Material3.Body.Text</item>
     </style>
 
-    <style name="Theme.MiraReader.TidalWave" parent="Base.Theme.MiraReader">
-        <item name="colorPrimary">@color/tidal_primary</item>
-        <item name="colorSecondary">@color/tidal_secondary</item>
+    <!-- Material Alert Dialog Styles -->
+    <style name="MaterialAlertDialog.Material3.Title.Text" parent="MaterialAlertDialog.Material3.Title.Text">
+        <item name="android:textColor">?attr/colorOnSurface</item>
     </style>
 
-    <style name="Theme.MiraReader.Nord" parent="Base.Theme.MiraReader">
-        <item name="colorPrimary">@color/nord_primary</item>
-        <item name="colorSecondary">@color/nord_secondary</item>
+    <style name="MaterialAlertDialog.Material3.Body.Text" parent="MaterialAlertDialog.Material3.Body.Text">
+        <item name="android:textColor">?attr/colorOnSurfaceVariant</item>
     </style>
 
-    <style name="Theme.MiraReader.Monochrome" parent="Base.Theme.MiraReader">
-        <item name="colorPrimary">@color/mono_primary</item>
-        <item name="colorSecondary">@color/mono_secondary</item>
+    <!-- Preference Styles -->
+    <style name="Preference.Material" parent="Preference.Material">
+        <item name="android:layout">@layout/preference_material</item>
     </style>
 
-    <style name="ThemeOverlay.MiraReader.Amoled" parent="Base.Theme.MiraReader">
-        <item name="colorPrimary">@color/black</item>
-        <item name="colorSecondary">@color/black</item>
+    <style name="Preference.Material.Switch" parent="Preference.Material.Switch">
+        <item name="android:layout">@layout/preference_material_switch</item>
     </style>
 
-    <!-- Splashscreen -->
-    <style name="Theme.MiraReader.SplashScreen" parent="Theme.SplashScreen">
-        <item name="windowSplashScreenBackground">@color/splash_background</item>
+    <!-- Divider Styles -->
+    <style name="Divider.Horizontal" parent="">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">?attr/colorOutlineVariant</item>
+    </style>
+
+    <style name="Divider.Vertical" parent="">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">?attr/colorOutlineVariant</item>
+    </style>
+
+    <!-- Card Styles -->
+    <style name="CardView.Elevated" parent="CardView">
+        <item name="cardElevation">8dp</item>
+        <item name="cardCornerRadius">12dp</item>
+        <item name="cardBackgroundColor">?attr/colorSurface</item>
+    </style>
+
+    <!-- List Item Styles -->
+    <style name="ListItem.Material" parent="">
+        <item name="android:minHeight">56dp</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
     </style>
 
 </resources>
