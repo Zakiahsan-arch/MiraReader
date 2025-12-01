@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- MiraReader Color Palette -->
+    <color name="mirareader_primary">#FF6B8E</color>
+    <color name="mirareader_onPrimary">#FFFFFF</color>
+    <color name="mirareader_primaryContainer">#FFD8DF</color>
+    <color name="mirareader_onPrimaryContainer">#3E001B</color>
+    <color name="mirareader_inversePrimary">#FFB2C2</color>
+    
+    <color name="mirareader_secondary">#77565D</color>
+    <color name="mirareader_onSecondary">#FFFFFF</color>
+    <color name="mirareader_secondaryContainer">#FFD8DF</color>
+    <color name="mirareader_onSecondaryContainer">#2C151A</color>
+    
+    <color name="mirareader_tertiary">#7B5733</color>
+    <color name="mirareader_onTertiary">#FFFFFF</color>
+    <color name="mirareader_tertiaryContainer">#FFDCC1</color>
+    <color name="mirareader_onTertiaryContainer">#2C1600</color>
+    
+    <color name="mirareader_background">#FFF8F9</color>
+    <color name="mirareader_onBackground">#1F1A1B</color>
+    <color name="mirareader_surface">#FFF8F9</color>
+    <color name="mirareader_onSurface">#1F1A1B</color>
+    <color name="mirareader_surfaceVariant">#F2DDE1</color>
+    <color name="mirareader_onSurfaceVariant">#514346</color>
+    <color name="mirareader_surfaceTint">#FF6B8E</color>
+    
+    <color name="mirareader_inverseSurface">#352F30</color>
+    <color name="mirareader_inverseOnSurface">#F8EEEF</color>
+    
+    <color name="mirareader_error">#BA1A1A</color>
+    <color name="mirareader_onError">#FFFFFF</color>
+    <color name="mirareader_errorContainer">#FFDAD6</color>
+    <color name="mirareader_onErrorContainer">#410002</color>
+    
+    <color name="mirareader_outline">#837377</color>
+    <color name="mirareader_outlineVariant">#D5C2C6</color>
+    
+    <color name="mirareader_surfaceContainer">#F2DDE1</color>
+    <color name="mirareader_surfaceContainerHigh">#ECD7DB</color>
+    <color name="mirareader_surfaceContainerHighest">#E6D2D6</color>
+    <color name="mirareader_surfaceContainerLow">#F8E3E7</color>
+    <color name="mirareader_surfaceContainerLowest">#FFFFFF</color>
+
+    <!-- Tachiyomi colors for compatibility -->
+    <color name="tachiyomi_primary">#FF6B8E</color>
+    <color name="tachiyomi_onPrimary">#FFFFFF</color>
+    <color name="tachiyomi_primaryContainer">#FFDADF</color>
+    <color name="tachiyomi_onPrimaryContainer">#3F001A</color>
+    <color name="tachiyomi_inversePrimary">#FFB2C2</color>
+    <color name="tachiyomi_secondary">#76565D</color>
+    <color name="tachiyomi_onSecondary">#FFFFFF</color>
+    <color name="tachiyomi_secondaryContainer">#FFDADF</color>
+    <color name="tachiyomi_onSecondaryContainer">#2B151A</color>
+    <color name="tachiyomi_tertiary">#765A2D</color>
+    <color name="tachiyomi_onTertiary">#FFFFFF</color>
+    <color name="tachiyomi_tertiaryContainer">#FFDDB3</color>
+    <color name="tachiyomi_onTertiaryContainer">#281800</color>
+    <color name="tachiyomi_background">#FFF8F8</color>
+    <color name="tachiyomi_onBackground">#201A1B</color>
+    <color name="tachiyomi_surface">#FFF8F8</color>
+    <color name="tachiyomi_onSurface">#201A1B</color>
+    <color name="tachiyomi_surfaceVariant">#F2DDE1</color>
+    <color name="tachiyomi_onSurfaceVariant">#514346</color>
+    <color name="tachiyomi_inverseSurface">#362F30</color>
+    <color name="tachiyomi_inverseOnSurface">#FBEEEF</color>
+    <color name="tachiyomi_error">#BA1A1A</color>
+    <color name="tachiyomi_onError">#FFFFFF</color>
+    <color name="tachiyomi_errorContainer">#FFDAD6</color>
+    <color name="tachiyomi_onErrorContainer">#410002</color>
+    <color name="tachiyomi_outline">#847376</color>
+    <color name="tachiyomi_outlineVariant">#D5C2C6</color>
+    <color name="tachiyomi_surfaceContainer">#ECD7DB</color>
+    <color name="tachiyomi_surfaceContainerHigh">#E6D2D6</color>
+    <color name="tachiyomi_surfaceContainerHighest">#E1CDD1</color>
+    <color name="tachiyomi_surfaceContainerLow">#F2DDE1</color>
+    <color name="tachiyomi_surfaceContainerLowest">#FFFFFF</color>
+</resources>
